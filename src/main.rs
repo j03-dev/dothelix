@@ -43,7 +43,7 @@ fn runner(task: Option<Task>) -> Result<(), Box<dyn std::error::Error>> {
         }
         let output = command.output()?;
         println!("{}", String::from_utf8_lossy(&output.stdout));
-        eprintln!("{}", String::from_utf8_lossy(&output.stderr));
+        println!("{}", String::from_utf8_lossy(&output.stderr));
     }
     Ok(())
 }
@@ -65,6 +65,6 @@ fn launcher() -> Result<(), Box<dyn std::error::Error>> {
 
 fn main() {
     if let Err(e) = launcher() {
-        eprintln!("Error: {e}");
+        println!("Error: {e}");
     }
 }
