@@ -63,7 +63,7 @@
 3. **Open helix config file** at `~/.config/helix/config.toml` and add this:
   ```toml
   [keys.normal]
-  F5 = [":run-shell-command dothelix build"]
+  F5 = [":run-shell-command dothelix run"]
   F9 = [":run-shell-command dothelix build"]
   ```
 ## Configuration
