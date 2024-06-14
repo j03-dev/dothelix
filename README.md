@@ -8,6 +8,9 @@
 - Supports optional arguments and environment variables for each task.
 - Simple and flexible way to automate common tasks like build and run.
 
+![image0](./image0.png)
+![image1](./image1.png)
+
 ## Installation
 
 1. **Clone the repository**:
